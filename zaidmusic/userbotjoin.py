@@ -27,7 +27,7 @@ async def addchannel(client, message):
 
     try:
         await USER.join_chat(invitelink)
-        await USER.send_message(message.chat.id, "🤖: ᴢᴀɪᴅ ᴠᴄ ᴄʜᴀᴛ ʜᴇʟᴘᴇʀ ᴊᴏɪɴᴇᴅ ɪɴ ᴜʀ ᴄʜᴀᴛ ᴛᴏ ᴘʟᴀʏ ꜱᴏɴɢ ɪɴ ᴠᴄ")
+        await USER.send_message(message.chat.id, "🤖: OP MOTI MUSIC ᴢᴀɪᴅ ᴠᴄ ᴄʜᴀᴛ ʜᴇʟᴘᴇʀ ᴊᴏɪɴᴇᴅ ɪɴ ᴜʀ ᴄʜᴀᴛ ᴛᴏ ᴘʟᴀʏ ꜱᴏɴɢ ɪɴ ᴠᴄ")
     except UserAlreadyParticipant:
         await message.reply_text(
             "<b>helper already in your chat</b>",
