@@ -147,7 +147,7 @@ def updated_stats(chat, queue, vol=100):
             stats += "🎚 ᴠᴏʟᴜᴍᴇ: {}%\n".format(vol)
             stats += "🎵 ꜱᴏɴɢ ᴘʟᴀʏᴇᴅ: `{}`\n".format(len(que))
             stats += "💡 ɴᴏᴡ ᴘʟᴀʏɪɴɢ: **{}**\n".format(queue[0][0])
-            stats += "🎧 ᴢᴀɪᴅ ᴜꜱᴇʀ ʙʏ: {}".format(queue[0][1].mention)
+            stats += "🎧 MOTI MUSIC USER: {}".format(queue[0][1].mention)
     else:
         stats = None
     return stats
@@ -497,7 +497,7 @@ async def ytplay(_, message: Message):
     for i in message.command[1:]:
         query += " " + str(i)
     print(query)
-    await lel.edit("🔄 **ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ꜱᴜᴘᴇʀɪᴏʀ ꜱᴇʀᴠᴇʀ...**")
+    await lel.edit("🔄 **ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ᴏᴩ ᴍᴏᴛɪ ᴍᴜꜱɪᴄ ꜱᴇʀᴠᴇʀ🔊...**")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -540,9 +540,9 @@ async def ytplay(_, message: Message):
             ],
             [
                 InlineKeyboardButton(
-                    "☑️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Superior_Bots"
+                    "☑️ CHANNEL", url=f"https://t.me/ishq_wala_love"
                 ),
-                InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/Superior_Support"),
+                InlineKeyboardButton("SUPPORT ⚡", url=f"https://t.me/SWEETKINGDOM1"),
             ],
         ]
     )
@@ -582,7 +582,7 @@ async def ytplay(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             caption=f"☑️ **ɴᴀᴍᴇ:** [{title[:80]}]({url})\n⏱ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n💡 **ꜱᴛᴀᴛᴜꜱ:** `ᴘʟᴀʏɪɴɢ`\n"
-            + f"🎧 **ᴢᴀɪᴅ ᴜꜱᴇʀ ʙʏ:** {message.from_user.mention}",
+            + f"🎧 **MOTI MUSIC USER:** {message.from_user.mention}",
             reply_markup=keyboard,
         )
         os.remove("final.png")
