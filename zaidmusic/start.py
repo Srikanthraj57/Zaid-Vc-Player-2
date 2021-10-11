@@ -42,22 +42,22 @@ async def start_(client: Client, message: Message):
             [ 
                 [
                     InlineKeyboardButton(
-                        "  🅰🅳🅳 🅼🅴 🆃🅾 🆄🆁 🅲🅷🅰🆃☑️", url=f"https://t.me/Op_moti_music_robot?startgroup=true")
+                        " ADD TO ME UR GROUP ☑️", url=f"https://t.me/Op_moti_music_robot?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        " 🆂🅴🆃🆄🅿⚡", callback_data="cbhowtouse")
+                        " SETUP⚡", callback_data="cbhowtouse")
                 ],[
                     InlineKeyboardButton(
                         "  🅾🆆🅽🅴🆁💫", url=f"Https://t.me/Alone_Shaurya_king")
                 ],[
                     InlineKeyboardButton(
-                        "⚡🆂🆄🅿🅿🅾🆁🆃", url=f"https://t.me/sweetkingdom1"
+                        "⚡SUPPORT ", url=f"https://t.me/sweetkingdom1"
                     ),
                     InlineKeyboardButton(
-                        "🅲🅷🅰🅽🅽🅴🅻 ☑️", url=f"Https://t.me/ishq_wala_love")
+                        "CHANNEL ☑️", url=f"Https://t.me/ishq_wala_love")
                 ],[
                     InlineKeyboardButton(
-                        " ℹ️ 🅷🅴🅻🅿 ", callback_data="cbcmds"
+                        " ℹ️ HELP  ", callback_data="cbcmds"
                     )
                 ]
             ]
