@@ -17,7 +17,7 @@ bot = Bot(
     plugins=dict(root="MOTI MUSIC"),
 )
 
-print("[INFO]: OP MOTI MUSIC STARTED!")
+print("[INFO]: SRIKI MUSIC STARTED!")
 
 bot.start()
 run()
