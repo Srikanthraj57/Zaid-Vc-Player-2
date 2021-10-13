@@ -1,7 +1,7 @@
 {
-    "name": "Op Moti Music Bot",
-    "logo": "https://telegra.ph/file/b69745edc110a76387855-d46dc515d1eceb7378.jpg",
-    "description": "Moti music allow you to stream music trought the telegram voice chat feature.",
+    "name": "Sriki Music Bot",
+    "logo": "https://telegra.ph/file/cbd81c831318fb65603b8.jpg",
+    "description": "Sriki music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
     "repository": "https://github.com/Itsunknown-12/Zaid-Vc-Player",
     "stack": "container",
