@@ -471,7 +471,7 @@ async def ytplay(_, message: Message):
                         "🤖: ɪ'ᴍ ᴊᴏɪɴᴇᴅ ᴛᴏ ᴛʜɪꜱ ɢʀᴏᴜᴘ ꜰᴏʀ ᴘʟᴀʏɪɴɢ ᴍᴜꜱɪᴄ ɪɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ",
                     )
                     await lel.edit(
-                        f"✅ **ᴜꜱᴇʀʙᴏᴛ ꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ᴊᴏɪɴᴇᴅ ᴛʜɪꜱ ɢʀᴏᴜᴘ.**",
+                        f"✅ **ᴜꜱᴇʀʙᴏᴛ ꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ᴊᴏɪɴᴇᴅ ᴛʜɪꜱ ɢʀᴏᴜᴘ a Bot By @Srikanth_36.**",
                     )
 
                 except UserAlreadyParticipant:
