@@ -65,7 +65,7 @@ async def controlset(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton("⏩ skip", callback_data="cbskip"),
-                    InlineKeyboardButton("⏹ stop", callback_data="cbend"),
+                    InlineKeyboardButton("Owner", https://t.me/Srikanth_36"),
                 ],
                 [InlineKeyboardButton("⛔ anti cmd", callback_data="cbdelcmds")],
                 [InlineKeyboardButton("🗑 Close", callback_data="close")],
@@ -123,7 +123,7 @@ async def stop(_, message: Message):
         await message.reply_text("✅ **music playback has ended**")
 
 
-@Client.on_message(command(["skip", f"skip@{BOT_USERNAME}"]) & other_filters)
+@Client.on_message(command(["skip", f"skip@Sriki_Vcmusic_bot"]) & other_filters)
 @errors
 @authorized_users_only
 async def skip(_, message: Message):
@@ -164,7 +164,7 @@ async def authenticate(client, message):
         await message.reply("✅ user already authorized!")
 
 
-@Client.on_message(command(["deauth", f"deauth@{BOT_USERNAME}"]) & other_filters)
+@Client.on_message(command(["deauth", f"deauth@Sriki_Vcmusic_bot"]) & other_filters)
 @authorized_users_only
 async def deautenticate(client, message):
     global admins
