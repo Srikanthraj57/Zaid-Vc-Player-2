@@ -14,10 +14,10 @@ bot = Bot(
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root="zaidmusic"),
+    plugins=dict(root= SRIKI MUSIC"),
 )
 
-print("[INFO]: ZAIDMUSIC STARTED!")
+print("[INFO]:SRIKI MUSIC STARTED!")
 
 bot.start()
 run()
