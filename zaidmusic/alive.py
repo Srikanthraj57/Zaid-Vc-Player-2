@@ -57,7 +57,7 @@ async def alive(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💫🆂🆄🅿🅿🅾🆁🆃 ", url=f"https://t.me/we_all_are_best_friends
+                        "💫🆂🆄🅿🅿🅾🆁🆃 ", url=f"https://t.me/we_all_are_best_friends"
                     ),
                     InlineKeyboardButton(
                         "🅲🅷🅰🅽🅽🅴🅻 ☑️", url=f"https://t.me/legend_friends_Updates"
