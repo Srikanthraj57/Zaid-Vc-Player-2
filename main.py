@@ -14,7 +14,7 @@ bot = Bot(
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root= SRIKI MUSIC"),
+    plugins=dict(root= zaidmusic"),
 )
 
 print("[INFO]:SRIKI MUSIC STARTED!")
