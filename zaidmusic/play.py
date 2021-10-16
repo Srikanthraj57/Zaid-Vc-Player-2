@@ -147,7 +147,7 @@ def updated_stats(chat, queue, vol=100):
             stats += "🎚 ᴠᴏʟᴜᴍᴇ: {}%\n".format(vol)
             stats += "🎵 ꜱᴏɴɢ ᴘʟᴀʏᴇᴅ: `{}`\n".format(len(que))
             stats += "💡 ɴᴏᴡ ᴘʟᴀʏɪɴɢ: **{}**\n".format(queue[0][0])
-            stats += "🎧 MOTI MUSIC USER: {}".format(queue[0][1].mention)
+            stats += "🎧 SRIKI MUSIC USER: {}".format(queue[0][1].mention)
     else:
         stats = None
     return stats
@@ -542,7 +542,7 @@ async def ytplay(_, message: Message):
                 InlineKeyboardButton(
                     "☑️ CHANNEL", url=f"https://t.me/ishq_wala_love"
                 ),
-                InlineKeyboardButton("SUPPORT ⚡", url=f"https://t.me/SWEETKINGDOM1"),
+                InlineKeyboardButton("SUPPORT ⚡", url=f"https://t.me/WE_ALL_ARE_BEST_FRIENDS"),
             ],
         ]
     )
@@ -582,7 +582,7 @@ async def ytplay(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             caption=f"☑️ **ɴᴀᴍᴇ:** [{title[:80]}]({url})\n⏱ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n💡 **ꜱᴛᴀᴛᴜꜱ:** `ᴘʟᴀʏɪɴɢ`\n"
-            + f"🎧 **MOTI MUSIC USER:** {message.from_user.mention}",
+            + f"🎧 **SRIKI MUSIC USER:** {message.from_user.mention}",
             reply_markup=keyboard,
         )
         os.remove("final.png")
