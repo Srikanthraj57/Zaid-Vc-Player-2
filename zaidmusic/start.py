@@ -42,19 +42,19 @@ async def start_(client: Client, message: Message):
             [ 
                 [
                     InlineKeyboardButton(
-                        " ADD TO ME UR GROUP ☑️", url=f"https://t.me/Op_moti_music_robot?startgroup=true")
+                        " ADD TO ME UR GROUP ☑️", url=f"https://t.me/Sriki_Vcmusic_bot?startgroup=true")
                 ],[
                     InlineKeyboardButton(
                         " SETUP⚡", callback_data="cbhowtouse")
                 ],[
                     InlineKeyboardButton(
-                        "  🅾🆆🅽🅴🆁💫", url=f"Https://t.me/Alone_Shaurya_king")
+                        "  🅾🆆🅽🅴🆁💫", url=f"Https://t.me/Srikanth_36")
                 ],[
                     InlineKeyboardButton(
-                        "⚡SUPPORT ", url=f"https://t.me/sweetkingdom1"
+                        "⚡SUPPORT ", url=f"https://t.me/we_all_are_best_friends"
                     ),
                     InlineKeyboardButton(
-                        "CHANNEL ☑️", url=f"Https://t.me/ishq_wala_love")
+                        "CHANNEL ☑️", url=f"Https://t.me/legend_friends_updates")
                 ],[
                     InlineKeyboardButton(
                         " ℹ️ HELP  ", callback_data="cbcmds"
@@ -72,15 +72,15 @@ async def start(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
-        f"""✅ **MOTI MUSIC ɪꜱ ʀᴜɴɴɪɴɢ**\n<b>💠 **ᴜᴘᴛɪᴍᴇ:**</b> `{uptime}`""",
+        f"""✅ **SRIKI MUSIC ɪꜱ ʀᴜɴɴɪɴɢ**\n<b>💠 **ᴜᴘᴛɪᴍᴇ:**</b> `{uptime}`""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💫 🆂🆄🅿🅿🅾🆁🆃", url=f"https://t.me/sweetkingdom1"
+                        "💫 🆂🆄🅿🅿🅾🆁🆃", url=f"https://t.me/we_all_are_best_friends"
                     ),
                     InlineKeyboardButton(
-                        "🅲🅷🅰🅽🅽🅴🅻 ☑️", url=f"https://t.me/ishq_wala_love"
+                        "🅲🅷🅰🅽🅽🅴🅻 ☑️", url=f"https://t.me/legend_friends_updates"
                     )
                 ]
             ]
@@ -92,7 +92,7 @@ async def help(client: Client, message: Message):
     await message.reply_text(
         f"""<b>👋🏻 **Hello** {message.from_user.mention()}</b>
 
-**Please press the button below to read the explanation and see the list of available commands powered By MOTI MUSIC!**
+**Please press the button below to read the explanation and see the list of available commands powered By SRIKI MUSIC!**
 
 ⚡ __Powered by {BOT_NAME} MOTI MUSIC""",
         reply_markup=InlineKeyboardMarkup(
@@ -154,7 +154,7 @@ async def ping_pong(client: Client, message: Message):
     delta_ping = time() - start
     await m_reply.edit_text(
         "💫 `ᴘᴏɴɢ!!`\n"
-        f"🔊MOTI MUSIC IS ALIVE  `{delta_ping * 1000:.3f} ᴍꜱ`"
+        f"🔊SRIKI MUSIC IS ALIVE  `{delta_ping * 1000:.3f} ᴍꜱ`"
     )
 
 
@@ -165,7 +165,7 @@ async def get_uptime(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
-        "🤖 MOTI MUSIC ꜱᴛᴀᴛᴜꜱ:\n"
+        "🤖 SRIKI ꜱᴛᴀᴛᴜꜱ:\n"
         f"• **ᴜᴘᴛɪᴍᴇ:** `{uptime}`\n"
         f"• **ꜱᴛᴀʀᴛ ᴛɪᴍᴇ:** `{START_TIME_ISO}`"
     )
