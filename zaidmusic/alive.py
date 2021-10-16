@@ -44,23 +44,23 @@ async def alive(client: Client, message: Message):
         photo=f"https://telegra.ph/file/b69745edc110a76387855-d46dc515d1eceb7378.jpg",
         caption=f"""**➮𝐳 ʜɪɪ ɪ ᴍ [{BOT_NAME}](https://t.me/{BOT_USERNAME})**
 
-➮ **MOTI Sყʂƚҽɱ Wσɾƙιɳɠ Fιɳҽ**
+➮ **SRIKI Sყʂƚҽɱ Wσɾƙιɳɠ Fιɳҽ**
 
-➮ **MOTI ᴠᴇʀꜱɪᴏɴ : 5.0 Lҽƚҽʂƚ**
+➮ **SRIKI ᴠᴇʀꜱɪᴏɴ : 5.0 Lҽƚҽʂƚ**
 
 ➮ **ᴍʏ ᴏᴡɴᴇʀ : [{OWNER_NAME}](https://t.me/{OWNER_NAME})**
 
 ➮ **ꜱᴇʀᴠɪᴄᴇ ᴜᴘᴛɪᴍᴇ : `{uptime}`**
 
-**𝚃𝚑𝚊𝚗𝚔𝚜 𝙵𝚘𝚛 𝚄𝚜𝚒𝚗𝚐 MOTI 𝙱𝚘𝚝𝚜 ♥️**""",
+**𝚃𝚑𝚊𝚗𝚔𝚜 𝙵𝚘𝚛 𝚄𝚜𝚒𝚗𝚐 SRIKI 𝙱𝚘𝚝𝚜 ♥️**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💫🆂🆄🅿🅿🅾🆁🆃 ", url=f"https://t.me/sweetkingdom1"
+                        "💫🆂🆄🅿🅿🅾🆁🆃 ", url=f"https://t.me/we_all_are_best_friends"
                     ),
                     InlineKeyboardButton(
-                        "🅲🅷🅰🅽🅽🅴🅻 ☑️", url=f"https://t.me/ishq_wala_love"
+                        "🅲🅷🅰🅽🅽🅴🅻 ☑️", url=f"https://t.me/legend_friends_updates"
                     )
                 ]
             ]
